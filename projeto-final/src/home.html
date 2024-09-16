@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-    SALVE
+
+<body class="h-screen w-screen bg-gradient-to-r from-cyan-500 to-blue-500">
+    <header class="flex justify-center items-center">
+        <img src="./assets/image 4.svg" alt="" class="mt-10">
+    </header>
+
+    <main class="flex flex-col justify-center items-center mt-36 gap-12 w-screen">
+        <div class="w-full flex flex-col justify-center items-center text-white gap-8">
+            <h1 class="font-black text-4xl">Bem vindo ao mundo dos <span class="bg-gradient-to-r from-red-500 to-pink-500 inline-block text-transparent bg-clip-text">jogos!</span></h1>
+            <h2 class="font-bold text-3xl">Quer saber mais sobre seu jogo favorito? Está no lugar certo!</h2>
+        </div>
+
+        <div class="flex flex-col justify-center items-center mt-12 w-screen">
+            <input type="text" placeholder="Digite o nome do jogo que deseja pesquisar" class="w-5/12 placeholder:italic text-center p-4 rounded-full">
+            <button class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-48 mt-6 p-3 rounded-full text-white">Buscar</button>
+        </div>
+    </main>
 </body>
+
 </html>
