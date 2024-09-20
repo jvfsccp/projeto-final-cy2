@@ -1,13 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registre-se</title>
     <link href="./output.css" rel="stylesheet">
     <link rel="icon" href="./assets/image 5.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
-<body>
+
+<body class="w-screen h-screen bg-slate-800">
     
+
+    <form class="flex flex-col justify-center items-center gap-8 mt-40 w-screen">
+        <h1 class="text-stone-200 text-4xl text-center mb-10">Registre-se aqui</h1>
+        <div class="flex flex-col items-center gap-2">
+            <label for="name" class="text-white">Nome completo</label>
+            <input type="text" placeholder="Digite seu nome completo" id="name"
+                class="w-96 placeholder:text-center italic rounded-full p-2">
+        </div>
+
+        <div class="flex flex-col items-center gap-2">
+            <label for="user" class="flex flex-col gap-3 text-white items-center">Usuário</label>
+            <input type="text" placeholder="Digite seu nome de usuário" id="user"
+                class="w-96 placeholder:text-center italic rounded-full p-2">
+        </div>
+
+        <div class="flex flex-col items-center gap-2">
+            <label for="" class="text-white">Senha</label>
+            <input type="password" placeholder="Digite sua senha" id="senha"
+                class="w-96 placeholder:text-center italic rounded-full p-2">
+            <input type="password" placeholder="Confirme sua senha" id="confirmation-senha"
+                class="w-96 placeholder:text-center italic rounded-full p-2">
+        </div>
+
+        <div class="flex flex-col items-center gap-2">
+            <label for="email" class="text-white">Email</label>
+            <input type="email" placeholder="Digite seu melhor email" id="email" class="w-96 placeholder:text-center italic rounded-full p-2">
+        </div>
+
+    </form>
 </body>
+
 </html>
