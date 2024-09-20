@@ -4,26 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link href="./output.css" rel="stylesheet">
+    <link rel="icon" href="./assets/image 5.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
-<body class="h-screen w-screen bg-gradient-to-r from-cyan-500 to-blue-500">
+<body class="h-screen w-screen bg-gradient-to-r from-slate-700 to-slate-800">
     <header class="flex justify-center items-center">
-        <img src="./assets/image 4.svg" alt="" class="mt-10">
+        <img src="./assets/logo.svg" alt="" class="mt-10">
     </header>
 
     <main class="flex flex-col justify-center items-center mt-36 gap-12 w-screen">
         <div class="w-full flex flex-col justify-center items-center text-white gap-8">
-            <h1 class="font-black text-4xl">Bem vindo ao mundo dos <span class="bg-gradient-to-r from-red-500 to-pink-500 inline-block text-transparent bg-clip-text">jogos!</span></h1>
+            <h1 class="font-black text-4xl">Bem vindo ao mundo dos <span
+                    class="bg-gradient-to-r from-red-500 to-pink-500 inline-block text-transparent bg-clip-text">jogos!</span>
+            </h1>
             <h2 class="font-bold text-3xl">Quer saber mais sobre seu jogo favorito? Está no lugar certo!</h2>
         </div>
 
         <div class="flex flex-col justify-center items-center mt-12 w-screen">
-            <input type="text" placeholder="Digite o nome do jogo que deseja pesquisar" class="w-5/12 placeholder:italic text-center p-4 rounded-full">
-            <button class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-48 mt-6 p-3 rounded-full text-white">Buscar</button>
+            <input type="text" placeholder="Digite o nome do jogo que deseja pesquisar"
+                class="w-5/12 placeholder:italic text-center p-4 rounded-full">
+            <button
+                class="bg-gradient-to-r from-indigo-500  to-sky-500 w-48 mt-6 p-3 rounded-full text-white">Buscar</button>
         </div>
     </main>
+
+    <footer class="flex flex-col justify-center items-center mt-36 w-screen max-h-full">
+        <div class="w-full flex flex-col justify-center items-center p-5 bg-gradient-to-r from-slate-300 to-slate-400">
+            <p class="text-xl font-semibold">Desenvolvido por <a href="https://github.com/jvfsccp" target="_blank" class="italic underline">João Victor</a></p>
+            <p class="text-xl font-semibold">Todos os direitos reservados &copy;2024</p>
+        </div>
+    </footer>
 </body>
 
 </html>
