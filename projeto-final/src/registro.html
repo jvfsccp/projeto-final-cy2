@@ -17,7 +17,7 @@
 <body class="w-screen h-screen bg-slate-800">
     
 
-    <form class="flex flex-col justify-center items-center gap-8 mt-40 w-screen">
+    <form class="flex flex-col justify-center items-center gap-8 mt-40 w-screen" id="registroForm">
         <h1 class="text-stone-200 text-4xl text-center mb-10">Registre-se aqui</h1>
         <div class="flex flex-col items-center gap-2">
             <label for="name" class="text-white">Nome completo</label>
@@ -44,8 +44,10 @@
             <input type="email" placeholder="Digite seu melhor email" id="email" class="w-96 placeholder:text-center italic rounded-full p-2">
         </div>
 
-        <button class="bg-gradient-to-r from-green-500  to-lime-500 w-72 p-3 rounded-full text-white transition-all hover:scale-105 hover:opacity-80" type="submit">Registrar</button>
+        <button class="bg-gradient-to-r from-green-500  to-lime-500 w-72 p-3 rounded-full text-white transition-all hover:scale-105 hover:opacity-80" type="submit" id="btn-register">Registrar</button>
     </form>
+
+    <script src="registro.js"></script>
 </body>
 
 </html>
