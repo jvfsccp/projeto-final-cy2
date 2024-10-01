@@ -1,8 +1,4 @@
-
-
-document
-  .getElementById("loginForm")
-  .addEventListener("submit", function(event) {
+  document.getElementById("loginForm").addEventListener("submit", function(event) {
     event.preventDefault();
 
     const user = document.getElementById("loginUser").value;
