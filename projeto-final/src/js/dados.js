@@ -54,5 +54,21 @@ let dados = [
     empresa: "Electronic Arts",
     link: "https://www.ea.com/pt-br/games/ea-sports-fc/fc-24",
     imagem: "./assets/logo-eafc.png"
+  },
+  {
+    titulo: "Terraria",
+    descricao: "Terraria é um jogo eletrônico RPG de ação-aventura independente produzido pela desenvolvedora de jogos Re-Logic. Possui como características a exploração, artesanato, construção de estruturas e combate a monstros perigosos em um mundo 2D gerado de forma procedural.",
+    jogadores: "Rastreador de jogos calcula que há 4 milhões jogadores ativos de Terraria no total",
+    empresa: "Pipeworks Studio",
+    link: "https://terraria.org",
+    imagem: "./assets/logo-terraria.png"
+  },
+  {
+    titulo: "Undertale",
+    descricao: "Undertale é um RPG eletrônico criado pelo desenvolvedor independente norte-americano Toby Fox. Nele, o jogador pode controlar uma criança humana que caiu em uma caverna, uma região grande e isolada sob a superfície da Terra, separada por uma barreira mágica.",
+    jogadores: "No início de fevereiro de 2016, ele ultrapassou um milhão de vendas, e em julho de 2018, tinha um total estimado de três milhões e meio de jogadores na Steam.",
+    empresa: "Toby Fox",
+    link: "https://undertale.com",
+    imagem: "./assets/logo-undertale.png"
   }
 ]
